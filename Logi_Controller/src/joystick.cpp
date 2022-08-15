@@ -121,7 +121,7 @@ void Joystick::updateCommand(JoystickEvent *event, GamepadCommand &cmd)
       cmd.Dpad[1] = -(event->value) / double(event->MAX_AXES_VALUE);
 
     cmd.applyDeadband(0.001);
-    printf("%s\n", cmd.toString().c_str());
+    // printf("%s\n", cmd.toString().c_str());
   }
 }
 
