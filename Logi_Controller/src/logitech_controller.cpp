@@ -20,7 +20,7 @@
 /*========================= Gamepad Control ================================*/
 
 /* Includes ----------------------------------------------------------------*/
-#include "Logitech_controller.h"
+#include "logitech_controller.h"
 
 using namespace std;
 

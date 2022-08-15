@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Logitech_controller.h"
+#include "logitech_controller.h"
 
 int main(int argc, char *argv[])
 {
