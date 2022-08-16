@@ -36,8 +36,8 @@
 #define DXL_MOVING_STATUS_THRESHOLD 20 // DYNAMIXEL moving status threshold
 #define ESC_ASCII_VALUE 0x1b           // KEY ESC
 
-#define J4Step 50
-#define J5Step 10
+#define J4Step 20
+#define J5Step 5
 
 // For Logi_Controller
 #include "joystick.h"
@@ -52,6 +52,10 @@ ArmJointState armJointState;
 ArmJointState armState_init;
 ArmJointControl armJointControl;
 ArmJointMsg armJointMsg;
+
+#define J1Step 1000
+#define J2Step 1000
+#define J3Step 200
 
 const int angleRateS2 = 3600;
 const int angleRate = 800;
