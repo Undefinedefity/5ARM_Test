@@ -128,7 +128,7 @@ int main(int argc, char const *argv[])
     int iter = 0; // iteration counter
 
     // necessary param
-    // b  -- mins, plus
+    // button -- mins, plus
     // J1 -- LB, RB
     // J2 -- LT, RT
     // J3 -- BACK, START
